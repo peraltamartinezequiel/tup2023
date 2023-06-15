@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ar.edu.utn.frbb.tup.App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-App<clase7>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "ar.edu.utn.frbb.tup.App",
+            "projectName": "clase7",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
