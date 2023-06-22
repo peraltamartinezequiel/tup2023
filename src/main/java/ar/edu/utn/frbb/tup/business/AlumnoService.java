@@ -8,5 +8,4 @@ public interface AlumnoService {
     void aprobarAsignatura(int materiaId, int nota, long dni) throws EstadoIncorrectoException, CorrelatividadesNoAprobadasException;
 
     Alumno crearAlumno(AlumnoDto alumno);
-
 }
