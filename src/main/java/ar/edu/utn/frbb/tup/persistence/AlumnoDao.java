@@ -7,7 +7,7 @@ public interface AlumnoDao {
 
     void saveAlumno(Alumno a);
 
-    Alumno findAlumno(Long dni);
+    Alumno findAlumno(String apellido);
 
     Alumno loadAlumno(Long dni);
 }

@@ -2,6 +2,7 @@ package ar.edu.utn.frbb.tup.business.impl;
 
 import ar.edu.utn.frbb.tup.business.MateriaService;
 import ar.edu.utn.frbb.tup.model.Materia;
+import ar.edu.utn.frbb.tup.model.dto.MateriaDto;
 import ar.edu.utn.frbb.tup.persistence.MateriaDao;
 import ar.edu.utn.frbb.tup.persistence.MateriaDaoMemoryImpl;
 import org.springframework.stereotype.Service;
@@ -21,4 +22,10 @@ public class MateriaServiceImpl implements MateriaService {
     public List<Materia> getAllMaterias() {
         return null;
     }
+
+    @Override
+    public Materia crearMateria(MateriaDto materiaDto) {
+        return null;
+    }
+
 }

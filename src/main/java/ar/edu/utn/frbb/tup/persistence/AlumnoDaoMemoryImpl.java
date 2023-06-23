@@ -16,7 +16,7 @@ public class AlumnoDaoMemoryImpl implements AlumnoDao {
     }
 
     @Override
-    public Alumno findAlumno(Long dni) {
+    public Alumno findAlumno(String apellidoString) {
         return null;
     }
 

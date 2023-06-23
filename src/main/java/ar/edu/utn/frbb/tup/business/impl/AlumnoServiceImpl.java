@@ -49,5 +49,10 @@ public class AlumnoServiceImpl implements AlumnoService {
         return a;
     }
 
+    @Override
+    public Alumno buscarAlumno(String apellido) {
+        return new Alumno();
+    }
+
     
 }

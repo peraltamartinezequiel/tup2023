@@ -4,7 +4,7 @@ public class MateriaDto {
     String nombre;
     int anio;
     int cuatrimestre;
-    int idProfesor;
+    long idProfesor;
     public String getNombre() {
         return nombre;
     }
@@ -23,10 +23,10 @@ public class MateriaDto {
     public void setCuatrimestre(int cuatrimestre) {
         this.cuatrimestre = cuatrimestre;
     }
-    public int getIdProfesor() {
+    public long getIdProfesor() {
         return idProfesor;
     }
-    public void setIdProfesor(int idProfesor) {
+    public void setIdProfesor(long idProfesor) {
         this.idProfesor = idProfesor;
     }
 }
