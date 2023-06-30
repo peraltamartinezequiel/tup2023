@@ -11,4 +11,6 @@ public interface MateriaService {
     List<Materia> getAllMaterias();
 
     Materia crearMateria(MateriaDto materiaDto);
+
+    Materia buscarMateria(int materiaId);
 }

@@ -28,4 +28,9 @@ public class MateriaServiceImpl implements MateriaService {
         return null;
     }
 
+    @Override
+    public Materia buscarMateria(int materiaId) {
+        return null;
+    }
+
 }
